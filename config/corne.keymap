@@ -36,8 +36,8 @@
 
             bindings = <
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9      &kp NUMBER_0       &trans
-&kp DEL    &trans        &trans        &trans        &trans        &trans          &trans        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans     &trans        &trans        &trans        &trans        &trans          &trans        &trans        &trans        &trans            &trans             &trans
+&kp DEL    &kp LA(F4)    &kp F5        &kp F11       &kp F12       &trans          &trans        &kp MINUS     &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LCTRL  &kp Z         &kp X         &kp C         &kp V         &trans          &trans        &trans        &kp LEFT      &kp UP            &kp DOWN           &kp RIGHT
                                        &trans        &trans        &kp SPACE       &kp SPACE     &trans        &trans
             >;
         };
